@@ -7,12 +7,12 @@
 
 import Foundation
 
-class Questions{
+class Questions {
     var question: String
-    var answer: Int
+    var answer: String
     var multipleChoices: Array<String>
     
-    init(question: String, answer: Int, multipleChoices: Array<String>){
+    init(question: String, answer: String, multipleChoices: Array<String>){
         self.question = question
         self.answer = answer
         self.multipleChoices = multipleChoices

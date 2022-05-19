@@ -7,12 +7,15 @@
 
 import Foundation
 
-class quiz{
+class quiz {
     var subject: String
     var descrp: String
+    //var questions: [Questions]
+
     
     init(_ subjects: String, descriptions: String){
         self.descrp = descriptions
         self.subject = subjects
+
     }
 }

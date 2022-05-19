@@ -16,9 +16,9 @@ class AnswerViewController: UIViewController {
         super.viewDidLoad()
         let question = questions[numQuestion]
         questionInput.text = "\(question.question)"
-        correctAnswer.text = "The correct answer is \(question.multipleChoices[question.answer])"
-        rightOrWrong.text = "Your answer was \(userChoice == question.answer ? "correct" : "wrong")."
-        if userChoice == question.answer {
+        correctAnswer.text = "The correct answer is \(question.multipleChoices[Int(question.answer)! - 1])"
+        rightOrWrong.text = "Your answer was \(userChoice == (Int(question.answer)! - 1) ? "correct" : "wrong")."
+        if userChoice == Int(question.answer)! - 1 {
             score += 1
         }
         numQuestion += 1

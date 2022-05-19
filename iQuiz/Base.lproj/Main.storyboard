@@ -356,7 +356,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Got x/y Right!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPQ-1o-pUb">
-                                <rect key="frame" x="106" y="255" width="203" height="82"/>
+                                <rect key="frame" x="105.5" y="255" width="203" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="203" id="23F-xu-kf7"/>
                                     <constraint firstAttribute="height" constant="82" id="2DG-zM-hRT"/>

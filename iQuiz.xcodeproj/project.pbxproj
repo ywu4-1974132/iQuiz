@@ -19,6 +19,7 @@
 		792FCCD928338F2600259B59 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FCCD828338F2600259B59 /* QuestionViewController.swift */; };
 		792FCCDB28339DE900259B59 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FCCDA28339DE900259B59 /* Questions.swift */; };
 		7951E1EA282B8F3700DEF87F /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951E1E9282B8F3700DEF87F /* quiz.swift */; };
+		79908EC228361BE500BD0BC8 /* tedSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79908EC128361BE500BD0BC8 /* tedSubject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		792FCCD828338F2600259B59 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		792FCCDA28339DE900259B59 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		7951E1E9282B8F3700DEF87F /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
+		79908EC128361BE500BD0BC8 /* tedSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tedSubject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				1F61B23F282B85AE007D06A4 /* SceneDelegate.swift */,
 				1F61B241282B85AE007D06A4 /* ViewController.swift */,
 				792FCCDA28339DE900259B59 /* Questions.swift */,
+				79908EC128361BE500BD0BC8 /* tedSubject.swift */,
 				792FCCD828338F2600259B59 /* QuestionViewController.swift */,
 				7908E6CC2834A91F000488C4 /* AnswerViewController.swift */,
 				7908E6CE2834BAEE000488C4 /* FinishViewController.swift */,
@@ -158,6 +161,7 @@
 			files = (
 				1F61B242282B85AE007D06A4 /* ViewController.swift in Sources */,
 				1F61B252282B8649007D06A4 /* TableViewCell.swift in Sources */,
+				79908EC228361BE500BD0BC8 /* tedSubject.swift in Sources */,
 				7908E6CF2834BAEE000488C4 /* FinishViewController.swift in Sources */,
 				792FCCD928338F2600259B59 /* QuestionViewController.swift in Sources */,
 				792FCCDB28339DE900259B59 /* Questions.swift in Sources */,
