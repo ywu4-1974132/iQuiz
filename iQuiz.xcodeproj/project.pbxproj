@@ -19,6 +19,7 @@
 		792FCCD928338F2600259B59 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FCCD828338F2600259B59 /* QuestionViewController.swift */; };
 		792FCCDB28339DE900259B59 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FCCDA28339DE900259B59 /* Questions.swift */; };
 		7951E1EA282B8F3700DEF87F /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951E1E9282B8F3700DEF87F /* quiz.swift */; };
+		797901752836F47800AAB607 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 797901742836F47800AAB607 /* Settings.bundle */; };
 		79908EC228361BE500BD0BC8 /* tedSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79908EC128361BE500BD0BC8 /* tedSubject.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		792FCCD828338F2600259B59 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		792FCCDA28339DE900259B59 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		7951E1E9282B8F3700DEF87F /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
+		797901742836F47800AAB607 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		79908EC128361BE500BD0BC8 /* tedSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tedSubject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				7908E6CE2834BAEE000488C4 /* FinishViewController.swift */,
 				7951E1E9282B8F3700DEF87F /* quiz.swift */,
 				1F61B251282B8649007D06A4 /* TableViewCell.swift */,
+				797901742836F47800AAB607 /* Settings.bundle */,
 				1F61B243282B85AE007D06A4 /* Main.storyboard */,
 				1F61B246282B85AF007D06A4 /* Assets.xcassets */,
 				1F61B248282B85AF007D06A4 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797901752836F47800AAB607 /* Settings.bundle in Resources */,
 				1F61B24A282B85AF007D06A4 /* LaunchScreen.storyboard in Resources */,
 				1F61B247282B85AF007D06A4 /* Assets.xcassets in Resources */,
 				1F61B245282B85AE007D06A4 /* Main.storyboard in Resources */,
